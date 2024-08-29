@@ -1,0 +1,132 @@
+/* Center the content of the h1 tag: Rheaden Jackson */
+h1 {
+    color: black;
+    text-align: center;
+}
+
+/* Center image with ID img1 */
+#img1 {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    display: block;
+    margin: 0 auto; /* Ensures the image is centered */
+}
+
+/* Set up nav to use flexbox for centering */
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centers the flex items horizontally */
+}
+
+@media (max-width: 600px) {
+    .navigation {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+/* Ensure the ul takes up auto width to center it */
+nav ul {
+    padding: 0; /* Removes default padding */
+    margin: 2; /* Removes default margin */
+    display: flex; /* Uses flex to align children */
+    justify-content: center; /* Centers the list items within the ul */
+}
+
+/* Remove bullet points and center list items */
+nav ul li {
+    list-style-type: none;
+    margin: 0 15px; /* Adds space between each item */
+}
+
+/* Style the anchor tags inside the list items */
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none; /* Removes underline from links */
+}
+
+/* General section styling */
+section {
+    padding: 15px;
+    margin: 10px;
+}
+
+/* Center the content of the h2 tag section names*/
+h2 {
+    text-align: center;
+}
+
+/* Style for sections with specific IDs */
+#about, #projects, #contact {
+    background: rgba(127, 84, 28, 0.127);
+}
+
+/* General body styling */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Center image with ID img2 */
+#img2 {
+    text-align: center;
+    display: block;
+    margin: 0 auto; /* Ensures the image is centered */
+}
+
+p{
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+/* Center content with specific IDs */
+#cm, #msg, #social {
+    text-align: center;
+    padding-top: auto;
+}
+
+/* Anchor tag styling */
+a {
+    text-decoration: none;
+}
+
+/*makes sure that the padding and border are included in the total width and height of the elements.*/
+* {
+    box-sizing: border-box;
+  }
+
+/* Mobile styles */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .navigation {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+    .container {
+        width: 90%;
+    }
+
+    .navigation {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
