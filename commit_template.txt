@@ -1,0 +1,28 @@
+# Commit Message Template
+
+# Briefly describe the changes in this commit:
+# (e.g., "Fix navigation alignment issue")
+
+# Detailed explanation of the changes:
+# - Describe what was changed and why
+# - Include any relevant details or context
+# - Mention any related issues or tickets
+
+# Example:
+# Fix navigation text alignment issue
+# 
+# Adjusted the CSS properties for navigation items to center the text
+# properly within the navigation bar. This change ensures consistent
+# alignment across various screen sizes.
+# 
+# Related issue: #123
+
+# If this commit introduces a new feature or change, include:
+# - The feature or change introduced
+# - How it affects the project
+
+# If this commit fixes a bug, include:
+# - The bug that was fixed
+# - How it was fixed
+
+# Please make sure to follow the guidelines for clear and concise commit messages.
