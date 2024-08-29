@@ -1,4 +1,4 @@
-# Commit Message Template
+# New Commit Message Template
 
 # Briefly describe the changes in this commit:
 # (e.g., "Fix navigation alignment issue")
