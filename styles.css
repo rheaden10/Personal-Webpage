@@ -5,7 +5,7 @@ h1 {
 }
 
 /* Center image with ID img1 */
-#img1 {
+#img1, #logo {
     max-width: 100%;
     height: auto;
     text-align: center;
@@ -61,13 +61,13 @@ h2 {
 }
 
 /* Style for sections with specific IDs */
-#about, #projects, #contact {
+#about, #projects, #contact, #skill {
     background: rgba(127, 84, 28, 0.127);
 }
 
 /* General body styling */
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -87,9 +87,28 @@ p{
 }
 
 /* Center content with specific IDs */
-#cm, #msg, #social {
+#cm, #msg, #social{
     text-align: center;
     padding-top: auto;
+}
+
+#skills {
+    text-align: center; /* Center the table within the div */
+}
+
+table {
+    margin: 0 auto; /* Center the table horizontally */
+    border-collapse: collapse; /* Collapse borders to ensure no gaps */
+    width: 80%; /* Adjust width as needed */
+}
+
+td {
+    padding: 15px; /* Space between data in cells */
+    border: none;
+    text-align: center; /* Center text within cells */
+}
+td:first-child {
+    padding: 0; /* Remove padding for the first column */
 }
 
 /* Anchor tag styling */
